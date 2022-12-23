@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "surge": "^0.9.0"
+  },
+  "name": "mariosepulveda.github.io",
+  "description": "- 👋 Hi, I’m @mariosepulveda\r - 👀 I’m interested in web programation\r - 🌱 I’m currently learning new languajes\r - 💞️ I’m looking to collaborate on \r - 📫 How to reach me ...",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariosepulveda/mariosepulveda.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariosepulveda/mariosepulveda.github.io/issues"
+  },
+  "homepage": "https://github.com/mariosepulveda/mariosepulveda.github.io#readme"
+}
