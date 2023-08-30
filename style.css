@@ -58,7 +58,7 @@ nav h2 {
 
 
 aside {
-    background-color: #31352E;
+    background-color: #0a0a0d;
     color:#EBEBE8;
     width: 30%;
     margin-right: 3%;
@@ -91,7 +91,7 @@ main section {
 
 
 main section:first-child{
-    background-color: #778A35;
+    background-color: #8a99ff;
     box-shadow: 2px 2px 40px 1px inset;
     padding:15% 0;
 
