@@ -3,10 +3,10 @@
     color: #31352E #EBEBE8 #D1E2C4 #778A35;
 }
 
-#A0C49D
-#C4D7B2
-#E1ECC8
-#F7FFE5
+#35155D
+#512B81
+#4477CE
+#8CABFF
 
 */
 
@@ -58,7 +58,7 @@ nav h2 {
 
 
 aside {
-    background-color: #0a0a0d;
+    background-color: #512B81;
     color:#EBEBE8;
     width: 30%;
     margin-right: 3%;
@@ -91,7 +91,7 @@ main section {
 
 
 main section:first-child{
-    background-color: #8a99ff;
+    background-color: #4477CE;
     box-shadow: 2px 2px 40px 1px inset;
     padding:15% 0;
 
@@ -118,7 +118,7 @@ main section h2 {
 
 .aboutme {
     margin-top: 10px;
-    background-color: #D1E2C4;
+    background-color: #8CABFF;
 }
 
 .aboutme h2 {
@@ -152,7 +152,7 @@ article h3, article h4 {
 .references{
     display:flex;
     flex-wrap: wrap;
-    background-color: #D1E2C4;
+    background-color: #8CABFF;
 }
 
 .references article{
