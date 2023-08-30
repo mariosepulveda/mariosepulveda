@@ -59,7 +59,7 @@ nav h2 {
 
 aside {
     background-color: #6096B4;
-    color:#EEE9DA;
+    /*color:#EEE9DA;*/
     width: 30%;
     margin-right: 3%;
     padding: 20px 0 20px 5px;
@@ -85,9 +85,11 @@ main {
     width: 70%;
 }
 
+/*
 main section {
     color: #31352E;
 }
+*/
 
 
 main section:first-child{
@@ -107,8 +109,8 @@ main section h2 {
 }
 
 .hero h2{
-    border-top: 3px solid #EBEBE8;
-    color:#EBEBE8;
+    border-top: 3px solid #EEE9DA;
+    color:#EEE9DA;
 }
 .hero h1 {
     letter-spacing: 1px;
