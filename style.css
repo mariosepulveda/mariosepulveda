@@ -58,8 +58,8 @@ nav h2 {
 
 
 aside {
-    background-color: #35155D;
-    color:#EBEBE8;
+    background-color: #6096B4;
+    color:#EEE9DA;
     width: 30%;
     margin-right: 3%;
     padding: 20px 0 20px 5px;
@@ -91,7 +91,7 @@ main section {
 
 
 main section:first-child{
-    background-color: #4477CE;
+    background-color: #93BFCF;
     box-shadow: 2px 2px 40px 1px inset;
     padding:15% 0;
 
@@ -118,7 +118,7 @@ main section h2 {
 
 .aboutme {
     margin-top: 10px;
-    background-color: #8CABFF;
+    background-color: #BDCDD6;
 }
 
 .aboutme h2 {
@@ -152,7 +152,7 @@ article h3, article h4 {
 .references{
     display:flex;
     flex-wrap: wrap;
-    background-color: #8CABFF;
+    background-color: #BDCDD6;
 }
 
 .references article{
