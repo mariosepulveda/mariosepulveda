@@ -10,11 +10,25 @@
 
 */
 
+/*
+#Federal blue #03045E
+#Marian blue #023E8A
+#honolulu blue #0077B6
+#pacific cyan #00B4D8
+#non photo blue #90E0EF
+#ligth cyan #CAF0F8
+*/
+:root{
+    --federal-blue:#023E8A;
+    --columbia-blue:#BDCDD6;
+    --pacific-cyan:#00B4D8;
+}
 /*LAYOUt*/
 
 .main-container {
     display: flex;
     width: 100%;
+    flex-direction: row-reverse;
     /*justify-content:space-between;*/
 
 }
@@ -45,31 +59,33 @@ nav figure img {
 }
 
 h1 {
-    color:#000000;
+    color:#ffffff;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     font-family: 'GFS Didot', serif;
+    font-size: xx-large;
+    font-weight: lighter;
 
 }
 
 h2 {
     text-transform: uppercase;
-    font-family: 'GFS Didot', serif;
-
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
 }
 
-nav h2 {
-    border-top: #ffffff solid 5px;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+
+.hero h2,
+.aboutme h2,
+.experience h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 
 aside {
-    background-color: #6096B4;
-    color:#ffffff;
+    background-color: var(--columbia-blue);
+    color:#000000;
     width: 30%;
     margin-right: 3%;
     padding: 20px 0 20px 5px;
@@ -105,9 +121,9 @@ main section {
 
 
 main section:first-child{
-    background-color: #93BFCF;
+    background-color: var(--federal-blue);
     box-shadow: 1px 1px 10px 1px inherit;
-    padding:15% 0;
+    padding:7% 0;
 
 }
 
@@ -123,6 +139,7 @@ main section h2 {
 .hero h2{
     border-top: 3px solid #ffffff;
     color:#ffffff;
+    padding: 10px 0 0 0;
 }
 .hero h1 {
     letter-spacing: 1px;
@@ -132,7 +149,7 @@ main section h2 {
 
 .aboutme {
     margin-top: 10px;
-    background-color: #BDCDD6;
+    background-color: #ffffff;
 }
 
 .aboutme h2 {
@@ -143,12 +160,16 @@ main section h2 {
     line-height: 1.8em;
     padding: 20px;
     margin: 5px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 p{
     letter-spacing: 1px;
     font-size: large;
+    line-height: 1.8em;
+    padding: 20px;
+    margin: 5px;
+    font-weight: normal;
 }
 
 
@@ -157,23 +178,27 @@ main h3{
     margin-top: 30px;
     margin-bottom: 5px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    color: var(--pacific-cyan);
   
 }
 
 main h2 {
-    
     text-transform: uppercase;
-    letter-spacing: 5px;
 }
 
 main h4 {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-family: 'Oswald', sans-serif;
     font-size: large;
     font-weight: normal;
     margin-top: 5px;
 
+}
+
+i{
+    color:var(--pacific-cyan);
+    font-size: xx-large;
 }
 
 
@@ -240,48 +265,61 @@ dd:last-of-type {
 
 .icon {
     list-style: none;
+    
 }
 
 .icon a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 1px;
 }
 /*ICONS */
 
+
 .fb::before{
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
     content: "\f082";
-
+    background: var(--pacific-cyan);
+    margin: 0 10px 0 0;
 }
 
 .tw::before{
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
     content: "\f099";
+    background: var(--pacific-cyan);
+    margin: 0 10px 0 0;
 }
 /*Font Awesome 5 Free*/
 .lk::before{
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
     content: "\f0e1";
-    
+    background: var(--pacific-cyan);
+    margin: 0 10px 0 0;
 }
 
 .gt::before{
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
     content: "\f09b";
+    background: var(--pacific-cyan);
+    margin: 0 10px 0 0;
 }
 
 .social-item::before {
-    padding-right: 15px;
+    padding: 8px;
+    border-radius: 50%;
     font-size: 30px;
     line-height: 1.8em;
     color: #ffffff;
 
+}
+
+.social_med {
+    padding: 0;
 }
 
 /*fireFox*/
@@ -293,14 +331,14 @@ meter {
 }
 
 meter::-moz-meter-bar {
-    background: #59e344;
+    background: var(--pacific-cyan);
     border-radius: 5px;
 
 }
 /*chrome*/
 meter::-webkit-meter-optimum-value {
     background: none;
-    background-color: #59e344;
+    background-color: var(--pacific-cyan);
 }
 
 
@@ -308,7 +346,13 @@ meter::-webkit-meter-bar {
     background: none;
     background-color:#ffffff;
 }
+footer {
+    display: block;
+}
 
+.references_div {
+    width: 100%;
+}
 
 /*
 #31352E
@@ -323,3 +367,24 @@ meter::-webkit-meter-bar {
 #BFDCAE
 #F1F1E8
 */
+/*media queryes*/
+
+
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+      display: block;
+    }
+
+    .main-container {
+        display: block;
+    }
+
+    main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+  }
